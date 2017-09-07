@@ -1,0 +1,17 @@
+<div>Hey! I am {{names}}!</div>
+<h3>{{htmls}}</h3>
+<h3>{{{htmls}}}</h3>
+
+<ul>
+    <li>{{names}}</li>
+    {{#lists}}
+    {{/lists}}
+</ul>
+
+{{#isRosen}}
+    <span>he is Rosen</span>
+
+{{/isRosen}}
+{{^listNull}}
+    <span>nothing</span>
+{{/listNull}}
